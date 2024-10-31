@@ -1,0 +1,377 @@
+.offer-container {
+    background-color: white;
+    color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 40px 11rem 40px;
+  }
+  
+  .offer-cards {
+    display: flex;
+    gap: 2.5rem;
+    padding: 0 40px;
+  }
+  
+  .offer-card {
+    width: 350px;
+    height: 260px;
+    padding: 1.5rem;
+    margin-top: -2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    border-radius: 1rem;
+  }
+
+  @media (min-width: 1024px) and (max-width: 1280px) {
+    .offer-card {
+      width: 280px;
+      height: 220px;
+      padding: 1rem;
+    }
+  } 
+  
+  .green-card {
+    background-color: #22c55e;
+  }
+  
+  .orange-card {
+    background-color: #f97316;
+  }
+  
+  .blue-card {
+    background-color: #60a5fa;
+  }
+  
+  .icon-wrapper {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.75rem;
+  }
+
+  @media (min-width: 1024px) and (max-width: 1280px) {
+    .icon-wrapper {
+      width: 2.5rem;
+      height: 2.5rem;
+    }
+  } 
+  
+  .green-icon {
+    background-color: #4ade80;
+  }
+  
+  .orange-icon {
+    background-color: #fb923c;
+  }
+  
+  .blue-icon {
+    background-color: #93c5fd;
+  }
+  
+  .icon {
+    width: 1.75rem;
+    height: 1.75rem;
+    color: white;
+  }
+
+  @media (min-width: 1024px) and (max-width: 1280px) {
+    .icon {
+      width: 1.4rem;
+      height: 1.4rem;
+    }
+  } 
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+  }
+  
+  .card-text {
+    color: white;
+    font-size: 0.95rem;
+  }
+  
+  .offer-heading {
+    font-size: 2.5rem;
+    font-family: serif;
+    color: #22c55e;
+    text-align: center;
+    margin-top: 5rem;
+  }
+  
+  .underline {
+    border-bottom: 4px solid #f97316;
+  }
+  
+  .offer-subheading {
+    color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    margin-top: 2.5rem;
+    margin-bottom: 3rem;
+  }
+  
+  .offer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+    padding: 0 10rem;
+  }
+
+  @media (min-width: 1024px) and (max-width: 1280px) {
+    .offer-grid {
+      padding: 0 7rem;
+    }
+  } 
+  
+  .offer-box {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .icon-border {
+    border: 1px solid #d1d5db;
+    padding: 0.25rem;
+    border-radius: 2rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .inner-icon {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .orange-bg {
+    background-color: rgba(253, 230, 138, 0.5);
+    color: #f97316;
+  }
+  
+  .blue-bg {
+    background-color: rgba(191, 219, 254, 0.5);
+    color: #60a5fa;
+  }
+  
+  .purple-bg {
+    background-color: rgba(233, 213, 255, 0.5);
+    color: #a78bfa;
+  }
+  
+  .green-bg {
+    background-color: rgba(167, 243, 208, 0.5);
+    color: #22c55e;
+  }
+  
+  .light-orange-bg {
+    background-color: rgba(254, 215, 170, 0.5);
+    color: #fb923c;
+  }
+  
+  .box-title {
+    font-size: 1.5rem;
+    font-family: serif;
+    color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .box-text {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 0.95rem;
+  }
+  
+
+
+
+/* Styles for 1024px - 1280px */
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .offer-card {
+    width: 280px;
+    height: 220px;
+    padding: 1rem;
+  }
+
+  .icon-wrapper {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .icon {
+    width: 1.4rem;
+    height: 1.4rem;
+  }
+
+  .offer-grid {
+    padding: 0 7rem;
+  }
+}
+
+/* Styles for 768px - 1023px */
+@media (min-width: 768px) and (max-width: 1023px) {
+ 
+  .offer-card {
+    width: 215px;
+    height: 180px;
+    padding: 0.6rem;
+    gap: 0.5rem;
+}
+
+  .offer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 0 5rem;
+  }
+
+  .offer-heading {
+    font-size: 2rem;
+    margin-top: 3rem;
+  }
+
+  .card-title {
+    font-size: 1rem;
+  }
+
+  .card-text {
+    font-size: 0.7rem;
+  }
+
+  .icon-wrapper {
+    width: 2.2rem;
+    height: 2.2rem;
+  }
+
+  .icon {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+}
+
+/* Styles for 640px - 767px */
+@media (min-width: 640px) and (max-width: 767px) {
+  .offer-container {
+    padding: 0 20px 8rem 20px;
+  }
+
+  .offer-cards {
+    gap: 0.7rem;
+  }
+
+  .offer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 0 3rem;
+  }
+
+  .offer-card {
+    width: 190px;
+    height: 160px; 
+    padding: 0.6rem;
+    gap: 0.3rem;
+  }
+
+  .card-title {
+    font-size: 0.8rem;
+  }
+
+  .card-text {
+    font-size: 0.7rem;
+  }
+
+  .icon-wrapper {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .icon {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+
+  .offer-heading {
+    font-size: 1.75rem;
+  }
+
+  .box-title {
+    font-size: 1.25rem;
+  }
+
+  .offer-subheading {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+/* Styles for 360px - 639px */
+@media (min-width: 360px) and (max-width: 639px) {
+  .offer-container {
+    padding: 0 10px 6rem 10px;
+  }
+
+  .offer-cards {
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: -40px;
+  }
+
+  .offer-card {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem;
+    height: auto; /* Allow card height to adjust naturally */
+  }
+
+  .offer-heading {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .card-title {
+    font-size: 1rem;
+  }
+
+  .card-text {
+    font-size: 0.85rem;
+  }
+
+  .icon-wrapper {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .icon {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+
+  .offer-grid {
+    grid-template-columns: 1fr;
+    padding: 0 1rem;
+  }
+
+  .offer-subheading {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .box-title {
+    font-size: 1rem;
+  }
+
+  .box-text {
+    font-size: 0.85rem;
+  }
+}
